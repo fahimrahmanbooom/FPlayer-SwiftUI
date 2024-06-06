@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF4D5F6B2C117CD2008EC672 /* FPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4D5F6A2C117CD2008EC672 /* FPlayerApp.swift */; };
+		FF4D5F6D2C117CD2008EC672 /* FPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4D5F6C2C117CD2008EC672 /* FPlayerView.swift */; };
+		FF4D5F6F2C117CD3008EC672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4D5F6E2C117CD3008EC672 /* Assets.xcassets */; };
+		FF4D5F722C117CD3008EC672 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4D5F712C117CD3008EC672 /* Preview Assets.xcassets */; };
+		FF4D5F7F2C1181A5008EC672 /* LNPopupUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF4D5F7E2C1181A5008EC672 /* LNPopupUI */; };
+		FF4D5F832C1185E3008EC672 /* FTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4D5F822C1185E3008EC672 /* FTabView.swift */; };
+		FF4D5F852C1185F1008EC672 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4D5F842C1185F1008EC672 /* HomeView.swift */; };
+		FF4D5F872C1185F9008EC672 /* SongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4D5F862C1185F9008EC672 /* SongsView.swift */; };
+		FF4D5F892C118601008EC672 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4D5F882C118601008EC672 /* SettingsView.swift */; };
+		FF4D5F8B2C11A314008EC672 /* GlobalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4D5F8A2C11A314008EC672 /* GlobalState.swift */; };
+		FF4D5F8C2C11A841008EC672 /* LNPopupUI in Embed Frameworks */ = {isa = PBXBuildFile; productRef = FF4D5F7E2C1181A5008EC672 /* LNPopupUI */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF4D5F8D2C11A841008EC672 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FF4D5F8C2C11A841008EC672 /* LNPopupUI in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF4D5F672C117CD2008EC672 /* FPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4D5F6A2C117CD2008EC672 /* FPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPlayerApp.swift; sourceTree = "<group>"; };
+		FF4D5F6C2C117CD2008EC672 /* FPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPlayerView.swift; sourceTree = "<group>"; };
+		FF4D5F6E2C117CD3008EC672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF4D5F712C117CD3008EC672 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF4D5F822C1185E3008EC672 /* FTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTabView.swift; sourceTree = "<group>"; };
+		FF4D5F842C1185F1008EC672 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FF4D5F862C1185F9008EC672 /* SongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsView.swift; sourceTree = "<group>"; };
+		FF4D5F882C118601008EC672 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FF4D5F8A2C11A314008EC672 /* GlobalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4D5F642C117CD2008EC672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4D5F7F2C1181A5008EC672 /* LNPopupUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF4D5F5E2C117CD2008EC672 = {
+			isa = PBXGroup;
+			children = (
+				FF4D5F692C117CD2008EC672 /* FPlayer */,
+				FF4D5F682C117CD2008EC672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4D5F682C117CD2008EC672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D5F672C117CD2008EC672 /* FPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4D5F692C117CD2008EC672 /* FPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D5F8E2C11AC2D008EC672 /* App */,
+				FF4D5F922C11AC9D008EC672 /* View */,
+				FF4D5F932C11ACC2008EC672 /* Constants+Extensions */,
+				FF4D5F6E2C117CD3008EC672 /* Assets.xcassets */,
+				FF4D5F702C117CD3008EC672 /* Preview Content */,
+			);
+			path = FPlayer;
+			sourceTree = "<group>";
+		};
+		FF4D5F702C117CD3008EC672 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D5F712C117CD3008EC672 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF4D5F8E2C11AC2D008EC672 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D5F6A2C117CD2008EC672 /* FPlayerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FF4D5F8F2C11AC35008EC672 /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D5F6C2C117CD2008EC672 /* FPlayerView.swift */,
+			);
+			path = PlayerView;
+			sourceTree = "<group>";
+		};
+		FF4D5F902C11AC43008EC672 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D5F822C1185E3008EC672 /* FTabView.swift */,
+				FF4D5F912C11AC87008EC672 /* TabItems */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		FF4D5F912C11AC87008EC672 /* TabItems */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D5F842C1185F1008EC672 /* HomeView.swift */,
+				FF4D5F862C1185F9008EC672 /* SongsView.swift */,
+				FF4D5F882C118601008EC672 /* SettingsView.swift */,
+			);
+			path = TabItems;
+			sourceTree = "<group>";
+		};
+		FF4D5F922C11AC9D008EC672 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D5F902C11AC43008EC672 /* TabView */,
+				FF4D5F8F2C11AC35008EC672 /* PlayerView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF4D5F932C11ACC2008EC672 /* Constants+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D5F8A2C11A314008EC672 /* GlobalState.swift */,
+			);
+			path = "Constants+Extensions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF4D5F662C117CD2008EC672 /* FPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4D5F752C117CD3008EC672 /* Build configuration list for PBXNativeTarget "FPlayer" */;
+			buildPhases = (
+				FF4D5F632C117CD2008EC672 /* Sources */,
+				FF4D5F642C117CD2008EC672 /* Frameworks */,
+				FF4D5F652C117CD2008EC672 /* Resources */,
+				FF4D5F8D2C11A841008EC672 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FPlayer;
+			packageProductDependencies = (
+				FF4D5F7E2C1181A5008EC672 /* LNPopupUI */,
+			);
+			productName = FPlayer;
+			productReference = FF4D5F672C117CD2008EC672 /* FPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4D5F5F2C117CD2008EC672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FF4D5F662C117CD2008EC672 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = FF4D5F622C117CD2008EC672 /* Build configuration list for PBXProject "FPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4D5F5E2C117CD2008EC672;
+			packageReferences = (
+				FF4D5F7D2C1181A5008EC672 /* XCRemoteSwiftPackageReference "LNPopupUI" */,
+			);
+			productRefGroup = FF4D5F682C117CD2008EC672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4D5F662C117CD2008EC672 /* FPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4D5F652C117CD2008EC672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4D5F722C117CD3008EC672 /* Preview Assets.xcassets in Resources */,
+				FF4D5F6F2C117CD3008EC672 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4D5F632C117CD2008EC672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4D5F6D2C117CD2008EC672 /* FPlayerView.swift in Sources */,
+				FF4D5F872C1185F9008EC672 /* SongsView.swift in Sources */,
+				FF4D5F852C1185F1008EC672 /* HomeView.swift in Sources */,
+				FF4D5F832C1185E3008EC672 /* FTabView.swift in Sources */,
+				FF4D5F892C118601008EC672 /* SettingsView.swift in Sources */,
+				FF4D5F8B2C11A314008EC672 /* GlobalState.swift in Sources */,
+				FF4D5F6B2C117CD2008EC672 /* FPlayerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF4D5F732C117CD3008EC672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF4D5F742C117CD3008EC672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF4D5F762C117CD3008EC672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = 8GMKQQ8C7H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF4D5F772C117CD3008EC672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = 8GMKQQ8C7H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4D5F622C117CD2008EC672 /* Build configuration list for PBXProject "FPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4D5F732C117CD3008EC672 /* Debug */,
+				FF4D5F742C117CD3008EC672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4D5F752C117CD3008EC672 /* Build configuration list for PBXNativeTarget "FPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4D5F762C117CD3008EC672 /* Debug */,
+				FF4D5F772C117CD3008EC672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF4D5F7D2C1181A5008EC672 /* XCRemoteSwiftPackageReference "LNPopupUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LeoNatan/LNPopupUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF4D5F7E2C1181A5008EC672 /* LNPopupUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF4D5F7D2C1181A5008EC672 /* XCRemoteSwiftPackageReference "LNPopupUI" */;
+			productName = LNPopupUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FF4D5F5F2C117CD2008EC672 /* Project object */;
+}
